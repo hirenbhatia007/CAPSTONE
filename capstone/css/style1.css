@@ -1,0 +1,267 @@
+.megamenu-li {
+    position: static;
+}
+
+#navbar {
+    color: blue;
+}
+
+.megamenu {
+    position: absolute;
+    width: 40%;
+    left: 0;
+    right: 0;
+    padding: 15px;
+}
+
+
+
+.mySlides {
+    display: none;
+}
+
+/************Button************************/
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 15px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: darkorange;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 2px #999;
+}
+
+.button:hover {
+    background-color: darkgray
+}
+
+.button:active {
+    background-color: #666779;
+    box-shadow: 0 5px #666;
+    transform: translateY(2px);
+}
+
+/************Button end ************************/
+
+
+.top-bottom{
+    margin-top: 1%;
+    margin-bottom:1%;
+    
+}
+
+.titlemsg {
+    color: darkgray;
+}
+
+
+.search {
+    text-align: right;
+    margin-top: 4.5%;
+}
+
+
+.click {
+    margin-top: 3em;
+}
+
+
+
+/*****************Making sm size of all images**************************************/
+.container-fluid1{
+    width: 75%;
+    
+}
+.container-fluid2{
+    width: 10%;
+    
+}
+
+
+.SameSize{
+    width: 200px;
+    height:200px;
+    object-fit: cover;
+
+}
+.SameSize1{
+    width:100%;
+    height: 300px;
+    object-fit: cover;
+
+}
+
+.ProductImg{
+    width: 10px;
+    height:10px;
+    object-fit: cover;
+
+}
+
+hr.style-eight {
+height: 5px;
+border: 1;
+box-shadow: inset 0 9px 9px -3px rgba(51,51,51,0.8);
+/*    11, 99, 184, 0.8*/
+-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+-ms-border-radius: 5px;
+-o-border-radius: 5px;
+border-radius: 5px;
+}
+
+hr.style-eight2 {
+height: 5px;
+border: 1;
+box-shadow: inset 0 9px 9px -3px rgba(51,51,51,0.8);
+/*    11, 99, 184, 0.8*/
+-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+-ms-border-radius: 5px;
+-o-border-radius: 5px;
+border-radius: 5px;
+}
+
+
+.gallaryHead{
+    
+    color: darkorange;
+}
+
+
+.categoriesP{
+    Margin-top:5%;
+    margin-bottom:5%;
+    
+}
+
+
+/***************** Ends here Making sm size of all images**************************************/
+
+
+/*****************image hover functions***************************/
+
+.overlay {
+  position: relative; 
+  bottom: 0; 
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  color: #f1f1f1; 
+  width:100%;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 15px;
+  padding: 10px;
+  text-align: center;
+}
+
+.container1:hover .overlay {
+  opacity: 1;
+}
+.container2:hover .overlay {
+  opacity: 1;
+}
+.container3:hover .overlay {
+  opacity: 1;
+}
+.container4:hover .overlay {
+  opacity: 1;
+}
+.container5:hover .overlay {
+  opacity: 1;
+}
+.container6:hover .overlay {
+  opacity: 1;
+}
+
+.artist img{
+    
+    border-radius: 50%;  
+}
+/*****************image hover functions***************************/
+
+
+/**************************artist*******************************/
+
+.overlayA {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 5.5%;
+  right: 0;
+  height: 100%;
+  width: 90%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color:darkgrey;
+border-radius: 50%;
+}
+
+
+
+.containera1:hover .overlayA {
+  opacity: .7;
+}
+.containera2:hover .overlayA {
+  opacity: .7;
+}
+.containera3:hover .overlayA {
+  opacity: .7;
+}
+.containera4:hover .overlayA {
+  opacity: .7;
+}
+
+.text {
+  color: #a81010;
+  font-size: 30px;
+    font-weight: bold;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+/**************************artist*******************************/
+
+.{
+    background-color: aliceblue;
+}
+
+.btn1 {
+  border: none;
+  background-color: orange;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  display: inline-block;
+}
+/*************add to cart button*****************/
+.btn {
+  border: none;
+  background-color: inherit;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.btn:hover {background: #eee;}
+
+.success {color: green;}
+.info {color: dodgerblue;}
+.warning {color: orange;}
+.danger {color: red;}
+.default {color: black;}
+
+/*************footer end*****************/
